@@ -4,18 +4,6 @@
 > Sucessão de passos
 
 ```bash
-sudo dnf install java-17-amazon-corretto-devel -y
-```
-
-```bash
-sudo dnf install sudo dnf install sudo dnf install  https://download.zeroc.com/ice/3.7/amzn2023/ice-repo-3.7.amzn2023.noarch.rpm -y
-```
-
-```bash
-sudo dnf install ice-compilers -y
-``` 
-
-```bash
 sudo apt uptdate
 ```
 
@@ -41,6 +29,22 @@ sudo apt-get update
 
 ```bash
 sudo apt-get install zeroc-ice-compilers
+```
+
+```bash
+sudo chown ubuntu:ubuntu /mnt/efs/fs1
+```
+
+```bash
+cd /mnt/efs/fs1
+```
+
+```bash
+sudo git clone https://github.com/DistributedSystems-UFG/exercicio06-ice-ThiagoNascente.git
+```
+
+```bash
+cd exercicio06-ice-ThiagoNascente/
 ```
 
 ```bash
